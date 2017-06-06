@@ -1,6 +1,6 @@
 .soc{
-  font-size: 18px;
-  color: purple;
+  font-size: 40px;
+  color: black;
   font-weight: bold;
 }
 h1{
@@ -8,11 +8,19 @@ h1{
   font-size: 20;
 }
 h2{
-  color: green;
+  font-size: 50px;
+  color: black;
+  font-style: oblique;
+}
+.c{
+  font-size: 30px;
+  font-weight:bolder;
+  color: purple;
 }
 h3{
   color: maroon;
   font-style: oblique;
+  font-size: 50px;
 }
 table{
   border: 5px solid red;
@@ -27,7 +35,7 @@ img{
 }
 body{
   background-color: #00CCAA;
-  color: blue;
+  color: black;
 }
 #conteneur{
   width: 500px;
@@ -37,5 +45,17 @@ body{
   text-align: center;
   background: white;
   padding: 30px;
-  border: 1px solid lightery; 
+  border: 1px solid lightery;
+}
+#card1{
+  background-color: yellow;
+}
+#card2{
+  background-image: url("comp3.png");
+  opacity: 0.5;
+  background-repeat: no-repeat;
+}
+#card3{
+  background-image: url("soc.jpg");
+  opacity: 0.5;
 }
