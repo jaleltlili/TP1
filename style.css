@@ -59,3 +59,9 @@ body{
   background-image: url("soc.jpg");
   opacity: 0.5;
 }
+table{
+  background-image: url("lov.png");
+}
+th{
+  background-color: red;
+}
