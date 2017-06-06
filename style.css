@@ -1,0 +1,41 @@
+.soc{
+  font-size: 18px;
+  color: purple;
+  font-weight: bold;
+}
+h1{
+  color: red;
+  font-size: 20;
+}
+h2{
+  color: green;
+}
+h3{
+  color: maroon;
+  font-style: oblique;
+}
+table{
+  border: 5px solid red;
+}
+th, td{
+  border: 2px solid orange;
+}
+img{
+  border: 10px solid black;
+  border-radius: 50%;
+
+}
+body{
+  background-color: #00CCAA;
+  color: blue;
+}
+#conteneur{
+  width: 500px;
+  margin: 0 auto;
+}
+.card{
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightery; 
+}
