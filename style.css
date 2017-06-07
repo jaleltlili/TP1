@@ -22,11 +22,13 @@ a:visited{
 h1{
   color: red;
   font-size: 20;
+  font-family: Vibur,fantasy;
 }
 h2{
   font-size: 50px;
   color: black;
   font-style: oblique;
+  font-family: Mogra, cursive;
 }
 .c{
   font-size: 30px;
@@ -80,4 +82,8 @@ table{
 }
 th{
   background-color: red;
+}
+.m{
+    width: 30px;
+    height: 30px
 }
