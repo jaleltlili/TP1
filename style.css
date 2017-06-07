@@ -44,7 +44,7 @@ table{
   border: 5px solid red;
 }
 th, td{
-  border: 2px solid orange;
+  border: 2px solid purple;
 }
 img{
   border: 10px solid black;
@@ -67,6 +67,11 @@ body{
 }
 #card1{
   background-color: yellow;
+}
+#card4{
+  background-color: #FFAAAA;
+  color: black;
+  font-size: 15px;
 }
 #card2{
   background-image: url("comp3.png");
@@ -129,4 +134,37 @@ th{
 .navli a:hover:not(.active) {
     background-color: #555;
     color: white;
+}
+.slideUp{
+	animation-name: slideUp;
+	-webkit-animation-name: slideUp;
+
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+
+	animation-timing-function: ease;
+	-webkit-animation-timing-function: ease;
+
+	visibility: visible !important;
+}
+
+@keyframes slideUp {
+	0% {
+		transform: translateY(100%);
+	}
+	50%{
+		transform: translateY(-8%);
+	}
+	65%{
+		transform: translateY(4%);
+	}
+	80%{
+		transform: translateY(-4%);
+	}
+	95%{
+		transform: translateY(2%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
 }
