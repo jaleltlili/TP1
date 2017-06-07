@@ -65,6 +65,7 @@ body{
   background: white;
   padding: 30px;
   border: 1px solid lightery;
+  padding-bottom: 190px; 
 }
 #card1{
   background-color: yellow;
