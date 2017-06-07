@@ -8,6 +8,16 @@
     <link href="https://fonts.googleapis.com/css?family=Mogra|Vibur" rel="stylesheet">
   </head>
   <body>
+    <div class="navbar">
+      <ul class="navul">
+           <li class="navli"><a class="active" href="#menu">Menu</a></li>
+           <li class="navli"><a href="#competences">Compétences</a></li>
+           <li class="navli"><a href="#liens_sociaux">Liens sociaux</a></li>
+           <li class="navli"><a href="#preferences">Préférences</a></li>
+      </ul>
+
+    </div>
+    <span id="menu"></span>
     <div id="conteneur">
       <div class="card" id="card1">
             <figure>
@@ -18,10 +28,19 @@
             <h2>Apprenti Web</h2>
         </div>
         <hr>
+        <!--
+        <nav class="mon_menu">
+            <ul>Menu
+              <li>Compétences</li>
+              <li>Liens sociaux</li>
+              <li>Préférences</li>
+            </ul>
+        </nav>
+      -->
         <div class="card" id="card2">
-            <h3 class="ts"><pre>      Compétences</pre></h3>
+            <h3 class="ts" id="competences"><pre>      Compétences</pre></h3>
             <ul class="c">
-              <li>HTML5 & CSS3</li>
+              <li>HTML5 &nbsp; CSS3</li>
               <li>JavaScript</li>
               <li>Lignes de commandes Linux</li>
               <li>Git & GitHub</li>
@@ -31,7 +50,7 @@
         </div>
         <hr>
         <div class="card" id="card3">
-              <h2 class="bord">Mes liens sociaux:</h2>
+              <h2 class="bord" id="liens_sociaux">Mes liens sociaux:</h2>
               <li><span class="soc"><a href="https://www.facebook.com/profile.php?id=100010380512003" target="_blank">Facebook</a></span><img src="fb.jpg" alt="facebook" class="m"></li>
               <li><span class="soc">Twitter</span><img src="twitter.png" alt="twitter" class="m"></li>
               <li><span class="soc">Skype</span> <img src="skype.png" alt="skype" class="m"></li>
@@ -40,7 +59,7 @@
          </div>
          <hr>
          <div class="card">
-              <table>
+              <table id="preferences">
                 <tr>
                   <th>Films préférés</th>
                   <td>La vie est belle</td>

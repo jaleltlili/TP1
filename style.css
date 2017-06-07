@@ -87,3 +87,46 @@ th{
     width: 30px;
     height: 30px
 }
+.navbar{
+  position: fixed;
+  top:5em;
+  left:  5em;
+  background-color: yellow;
+  margin: 20px;
+  padding: 20px;
+  text-
+}
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+}
+
+.navli a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.navli {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+.navli:last-child {
+    border-bottom: none;
+}
+
+.navli a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.navli a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
