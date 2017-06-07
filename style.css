@@ -1,3 +1,19 @@
+a:hover{
+  color: red;
+}
+a:visited{
+  color: grey;
+}
+.bord{
+  border: 5px black solid;
+  border-radius: 20px/10px;
+  box-shadow: 10px 10px 10px green;
+}
+.ts
+{
+  font-size: 45px;
+  text-shadow: 10px 10px 10px green;
+}
 .soc{
   font-size: 40px;
   color: black;
